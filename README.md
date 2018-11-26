@@ -8,7 +8,7 @@
 - 별도의 Embedding Layer를 구성하지 않고, 문장을 단어로 쪼갠 뒤 일일이 Word2Vec로 전처리하였습니다.
 - 단어 전처리에 사용한 Word2Vec 모델은 직접 학습시키지 않고, [학습된(pre-trained) 모델](https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md)을 사용하였습니다. 
 -  모델은 Ma-LSTM을 사용하였으며, [Siamese Recurrent Architectures for Learning Sentence Similarity](http://www.mit.edu/~jonasm/info/MuellerThyagarajan_AAAI16.pdf)  논문을 참고하였습니다.
-- 맨하탄 거리를 구하는  Custom Layer는 https://github.com/likejazz/Siamese-LSTM 에서 가져왔습니다.
+- 맨하탄 거리를 구하는  Custom Layer 코드는 https://github.com/likejazz/Siamese-LSTM 에서 가져왔습니다.
 
 ##  Final Result
 
